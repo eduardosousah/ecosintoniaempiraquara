@@ -130,14 +130,14 @@ li.slick-active button {
 }
 .vid-load {
     position: absolute;
-    top: 100%;
+    top: 160%;
     left: 23%;
 }
 .back-video {
     width: 100%;
     position: absolute;
     overflow: hidden;
-    top: 100%;
+    top: 160%;
 }
 .footer {
     text-align: center;
