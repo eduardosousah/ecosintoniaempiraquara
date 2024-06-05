@@ -1,0 +1,149 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+ul {
+    padding: 0px!important;
+}
+.menu-principal {
+
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+
+}
+main, .content {
+
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+
+}
+.logo {
+    top: 18px;
+    width: 50%;
+    position: relative;
+}
+.logo-faculdade ul {
+  
+    list-style: none;
+    height: 16px;
+    left: 685px;
+    position: relative;
+    
+}
+.logo-faculdade {
+    width: 50%;
+    bottom: 18px;
+    position: relative;
+    
+}
+.header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+.menu-urls {
+    border-bottom: 3px solid #efefef;
+}
+.orgaos-envolvidos ul li {
+    display: inline-block;
+    padding-right: 94px;
+    margin-left: 0px;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    background-image: url('../img/arrow-l.png');
+    position: absolute;
+    z-index: 9;
+    top: 45%;
+    left: 15%;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    background-image: url('../img/arrow-r.png');
+    position: absolute;
+    z-index: 9;
+    top: 45%;
+    right: 15%;
+}
+.slider-principal {
+    width: 100%!important;
+}
+.slick-list {
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 39%;
+    top: 90%;
+}
+li.slick-active button {
+    background: #99ff8f;
+}
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque h1 {
+    color: #3c3c3c;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.texto-destaque p {
+    color: #4f4f4f;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vid-load {
+    position: absolute;
+    top: 100%;
+    left: 23%;
+}
+.back-video {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 100%;
+}
+.footer {
+    text-align: center;
+    position: absolute;
+    top: 160%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color: #e5e5e5;
+}
